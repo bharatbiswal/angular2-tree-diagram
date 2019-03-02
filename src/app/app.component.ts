@@ -1,3 +1,6 @@
+declare var require: any;
+var json = require('./mock-data.json');
+
 /**
  * Angular 2 decorators and services
  */
@@ -5,7 +8,7 @@ import {
     Component,
     ViewEncapsulation
 } from '@angular/core';
-import json from './mock-data.json';
+
 
 /**
  * App Component
